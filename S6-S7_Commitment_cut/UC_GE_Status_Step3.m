@@ -11,7 +11,6 @@
 % [num_of_gen, num_buses, num_of_lines, a_ln, load_0, b, c, coe, num_of_rand,line_flow_limit] = parameters_500;
 % [num_of_gen, num_buses, num_of_lines, a_ln, load_0, b, c, coe, num_of_rand,line_flow_limit] = parameters_2383;
 
-% load("unit_pre_2383_cost.m");
 count_ge = zeros(100,1);
 count_line = zeros(100,1);
 solu_time_ori = zeros(100,1);
