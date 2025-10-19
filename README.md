@@ -26,7 +26,7 @@ The core of this work is the **Vertex-Guided Screening (VGS)** method. Instead o
 4.  **Improvements**:
     *   **Load Operating Range**: The method is extended to identify mutual redundant constraints across a predefined load operating range, making the reduced model applicable for varying load inputs.
     *   **Cost Cut**: A cutting plane based on predicted UC costs (using a trained Neural Network) is integrated to tighten the screened region.
-    *   **Unit Status Prediction**: Predicted on/off statuses for partial units (using KNN) are incorporated as additional constraints to further restrict the bounds and remove more constraints.
+    *   **Commitment Cut**: Predicted Commitment (on/off statuses) for partial units (using KNN) are incorporated as additional constraints to further restrict the bounds and remove more constraints.
 
 ## Experimental Results
 
