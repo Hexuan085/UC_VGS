@@ -1,4 +1,4 @@
-# Vertex-Guided Redundant Constraints Identification for Unit Commitment (UC_VGS)
+# Vertex-Guided Redundant Constraints Identification for Unit Commitment
 
 This repository contains the code and resources related to the research paper "Vertex-Guided Redundant Constraints Identification for Unit Commitment". This work proposes a novel approach to accelerate the Unit Commitment (UC) problem by efficiently identifying and eliminating redundant constraints in power system models.
 
