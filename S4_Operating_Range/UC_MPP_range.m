@@ -41,7 +41,7 @@ J_pre
 % x_ori = value(x_ori_pre);
 load_range = 0.75;
 
-[J_ori_mpp,x_ori_mpp,u_ori_mpp,d_ori_mpp, lp] = Solve_UC_GE(num_of_gen, a_ln, b, coe,line_flow_limit,gen_upper,l0,num_of_rand,c, J_pre,load_range);
+[J_ori_mpp,x_ori_mpp,u_ori_mpp,d_ori_mpp, lp] = Solve_UC_GE(num_of_gen, a_ln, b, coe,line_flow_limit,gen_upper,l0,num_of_rand,c, J_pre,load_range, u_ori);
 
 try
 tic
